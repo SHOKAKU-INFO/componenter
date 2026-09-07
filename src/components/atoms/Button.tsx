@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../styles/atoms/button.module.css';
+import styles from '../../styles/atoms/Button.module.css';
 
 type Props = {
     children: React.ReactNode;
