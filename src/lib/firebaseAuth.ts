@@ -1,7 +1,6 @@
-import { getAuth, GithubAuthProvider } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { firebaseApp } from './firebase';
 
 export const auth = firebaseApp ? getAuth(firebaseApp) : null;
-export const githubProvider = new GithubAuthProvider();
-githubProvider.addScope('repo');
-githubProvider.setCustomParameters({ allow_signup: 'true' });
+export const googleProvider = new GoogleAuthProvider();
+googleProvider.setCustomParameters({ prompt: 'select_account' });

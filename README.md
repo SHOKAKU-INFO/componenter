@@ -5,8 +5,8 @@
 ## ローカル起動
 
 ```bash
-npm install
-npm run dev
+bun install
+bun run dev
 ```
 
 ## 現在使える機能
@@ -21,16 +21,5 @@ npm run dev
 - クリック時の状態切替・文字切替・カウントと、サンドボックス化されたJavaScript直接編集
 - 公開・非公開を選べるユーザーコンポーネント
 - 全ユーザー向けコミュニティ、いいね、人気順のおすすめ
-- オンボーディングガイド、Firebase / GitHub / Cloudflare設定画面
-
-## Firebase / GitHub
-
-`.env.example` を `.env.local` にコピーし、Firebase Consoleの値を設定します。Firebase AuthenticationでGitHubプロバイダ、Firestoreを有効化してください。Firestoreには `firestore.rules` を適用します。未設定時もローカル保存で全機能を試せます。
-
-GitHubログイン後はビルダーの内容と作成コンポーネントがユーザー単位でFirestoreへ同期され、設定画面から非公開リポジトリを作成できます。公開コンポーネントはコミュニティへ掲載され、非公開コンポーネントは本人だけが読み取れます。リポジトリ作成にはFirebase Authentication側のGitHub OAuth Appへ `repo` スコープが必要です。
-
-## Cloudflare Pages
-
-- Build command: `npm run build`
-- Build output directory: `dist`
-- SPA fallback: Cloudflare Pagesの標準挙動で `index.html` にフォールバック
+- オンボーディングガイドとアカウント設定
+- Googleログイン後の作品同期

@@ -1,6 +1,6 @@
 import type { ReactNode, SVGProps } from 'react';
 
-export type IconName = 'home' | 'grid' | 'wand' | 'book' | 'settings' | 'search' | 'plus' | 'arrow' | 'code' | 'eye' | 'copy' | 'check' | 'github' | 'cloud' | 'menu' | 'x' | 'trash' | 'up' | 'down' | 'sparkles' | 'layers' | 'heart' | 'users' | 'lock' | 'globe';
+export type IconName = 'home' | 'grid' | 'wand' | 'book' | 'settings' | 'search' | 'plus' | 'arrow' | 'code' | 'eye' | 'copy' | 'check' | 'cloud' | 'menu' | 'x' | 'trash' | 'up' | 'down' | 'sparkles' | 'layers' | 'heart' | 'users' | 'lock' | 'globe';
 
 const paths: Record<IconName, ReactNode> = {
   home: <><path d="m3 11 9-8 9 8"/><path d="M5 10v10h14V10M9 20v-6h6v6"/></>,
@@ -11,7 +11,6 @@ const paths: Record<IconName, ReactNode> = {
   search: <><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></>, plus: <><path d="M12 5v14M5 12h14"/></>, arrow: <path d="m9 18 6-6-6-6"/>,
   code: <><path d="m8 9-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></>, eye: <><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></>,
   copy: <><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></>, check: <path d="m5 12 4 4L19 6"/>,
-  github: <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7.4A5.8 5.8 0 0 0 19.3 3 5.4 5.4 0 0 0 19.1 0S17.9-.4 15 1.6a13.4 13.4 0 0 0-6 0C6.1-.4 4.9 0 4.9 0a5.4 5.4 0 0 0-.2 3A5.8 5.8 0 0 0 3.2 7c0 5.8 3.5 7 6.8 7.4A4.8 4.8 0 0 0 9 18v4M9 19c-3 .9-3-1.5-4.2-2"/>,
   cloud: <path d="M17.5 19H6a4 4 0 1 1 .8-7.9A6 6 0 0 1 18.4 9a5 5 0 0 1-.9 10Z"/>, menu: <path d="M4 7h16M4 12h16M4 17h16"/>, x: <path d="m6 6 12 12M18 6 6 18"/>,
   trash: <><path d="M4 7h16M9 7V4h6v3M7 7l1 14h8l1-14M10 11v6M14 11v6"/></>, up: <path d="m6 15 6-6 6 6"/>, down: <path d="m6 9 6 6 6-6"/>,
   sparkles: <><path d="m12 3 1.2 3.2L16 8l-2.8 1.8L12 13l-1.2-3.2L8 8l2.8-1.8ZM5 15l.8 2.2L8 18.5l-2.2 1.3L5 22l-.8-2.2L2 18.5l2.2-1.3ZM19 13l.7 1.8 1.8.7-1.8.7L19 18l-.7-1.8-1.8-.7 1.8-.7Z"/></>,

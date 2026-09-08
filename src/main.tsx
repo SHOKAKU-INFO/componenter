@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 import './styles/globals.css';
+import './styles/landing.css';
 
 import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './app/AuthContext';
