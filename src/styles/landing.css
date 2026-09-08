@@ -10,3 +10,6 @@
 .creator-code>header button:hover{background:#423f4a;border-color:#625e6c}
 .editor-block header button{border:0;background:transparent;color:#aaa6b2;display:inline-flex;align-items:center;gap:5px;font-size:8px;cursor:pointer}
 .editor-block header button:hover{color:#fff}
+.auth-notice{display:flex;flex-direction:column;gap:4px}
+.auth-notice strong{font-size:11px}
+.auth-notice span{font-size:9px;line-height:1.6}
